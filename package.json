@@ -1,0 +1,35 @@
+{
+  "name": "degre_zero",
+  "version": "1.0.0",
+  "description": "Degré Zero Community's bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamienFoulon/DegreZeroBot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "degre",
+    "zero",
+    "community"
+  ],
+  "author": "Damien Foulon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamienFoulon/DegreZeroBot/issues"
+  },
+  "homepage": "https://github.com/DamienFoulon/DegreZeroBot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "ciql-json": "^1.9.6",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security"
+  }
+}
